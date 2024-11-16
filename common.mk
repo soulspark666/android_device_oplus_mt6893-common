@@ -523,8 +523,9 @@ PRODUCT_BOOT_JARS += \
     mediatek-framework \
     mediatek-ims-base \
     mediatek-ims-common \
-    mediatek-services \
-    oplus-support-wrapper
+    mediatek-telecom-common \
+    mediatek-telephony-base \
+    mediatek-telephony-common
 
 # Thermal
 PRODUCT_PACKAGES += \
