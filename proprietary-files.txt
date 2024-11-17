@@ -905,7 +905,6 @@ vendor/lib/libvp9dec_sa.ca7.so
 vendor/lib/libvpu.so
 vendor/lib/libvpu5.so
 vendor/lib/libvpud_vcodec.so
-vendor/lib/libstagefright_bufferpool@2.0.1.so
 vendor/lib64/AV1SecureVdecCA.so
 vendor/lib64/AVCSecureVdecCA.so
 vendor/lib64/HEVCSecureVdecCA.so
@@ -958,7 +957,6 @@ vendor/lib64/libcodec2_hidl_plugin.so
 
 # Media-Hardware
 vendor/lib/libstagefrighthw.so
-vendor/lib/libstagefright_bufferpool@2.0.1.so
 vendor/lib64/libstagefrighthw.so
 
 # Misc
