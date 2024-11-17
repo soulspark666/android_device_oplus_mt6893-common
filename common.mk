@@ -41,6 +41,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_AAPT_CONFIG := xxxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
 
+# Device-specific background service
+PRODUCT_PACKAGES += \
+    OssiDeviceService
+
 # Always use GPU for screen compositing
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_hwc_overlays=1
