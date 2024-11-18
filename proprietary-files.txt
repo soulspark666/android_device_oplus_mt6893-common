@@ -1011,7 +1011,6 @@ vendor/lib64/audio_common-aidl-cpp.so
 vendor/lib64/libAVCSecureVencCA.so
 vendor/lib64/libSQLiteModule_VER_ALL.so
 vendor/lib64/libcustomer_testvision.so
--vendor/priv-app/GpuGameDriver.mt6893/GpuGameDriver.mt6893.apk
 
 # Modules ( configs )
 vendor/etc/init/hw/factory_init.connectivity.common.rc
@@ -1147,8 +1146,6 @@ vendor/lib64/vendor.mediatek.hardware.nvram@1.0.so
 vendor/lib64/vendor.mediatek.hardware.nvram@1.1.so
 
 # OLC
-odm/etc/vintf/manifest/vendor.oplus.hardware.olc@2.0-service.xml
-odm/etc/permissions/vendor-oplus-hardware-olc-2.xml
 odm/etc/init/vendor.oplus.hardware.olc@2.0-service.rc
 odm/bin/hw/vendor.oplus.hardware.olc@2.0-service
 odm/lib/vendor.oplus.hardware.olc@2.0.so
