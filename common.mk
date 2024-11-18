@@ -337,10 +337,6 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     OplusDoze
 
-# MTK InCallService
-PRODUCT_PACKAGES += \
-    MtkInCallService
-
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
