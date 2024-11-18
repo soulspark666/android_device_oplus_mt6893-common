@@ -110,10 +110,6 @@ vendor/lib64/lib_iir.so
 vendor/lib64/lib_speech_enh.so
 vendor/lib64/libaaa_ltm.so
 vendor/lib64/libaaa_ltmx.so
-vendor/lib64/libaibc_tuning.so
-vendor/lib64/libaibc_tuning_p2.so
-vendor/lib64/libaibc_tuning_p3.so
-vendor/lib64/libaidepth_tuning.so
 vendor/lib64/libaudio_engineer_test.so
 vendor/lib64/libaudio_param_parser-vnd.so
 vendor/lib64/libaudiocompensationfilter_vendor.so
