@@ -105,9 +105,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/libshims/libldacBT_bco:$(TARGET_COPY_OUT_VENDOR)/lib64/libldacBT_bco.so
 
 # Camera
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/camera/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config
-
 PRODUCT_PACKAGES += \
     android.hardware.camera.common@1.0.vendor \
     android.hardware.camera.device@3.2.vendor \
@@ -335,17 +332,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Enforce RRO targets
 PRODUCT_ENFORCE_RRO_TARGETS := *
-
-# Oplus Camera
-PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/configs/permissions/com.oplus.camera.unit.sdk_product.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.oplus.camera.unit.sdk_product.xml \
-    $(COMMON_PATH)/configs/permissions/oplus_camera_default_grant_permissions_list.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/oplus_camera_default_grant_permissions_list.xml \
-    $(COMMON_PATH)/configs/permissions/APU_SYS.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/APU_SYS.xml \
-    $(COMMON_PATH)/configs/sysconfig/hiddenapi-package-whitelist-oplus-system.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/hiddenapi-package-whitelist-oplus-system.xml
-
-# ORMS
-PRODUCT_PACKAGES += \
-    orms_core_config
 
 # OplusDoze
 PRODUCT_PACKAGES += \
