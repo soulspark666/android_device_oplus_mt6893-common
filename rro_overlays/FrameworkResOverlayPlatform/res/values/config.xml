@@ -102,7 +102,7 @@
          appended after the path string to interpret coordinates in dp instead of px units.
          Note that a physical cutout should be configured in pixels for the best results.
     -->
-    <string name="config_mainBuiltInDisplayCutout">M -160,0 L -180, 0 L -180, 40 L -130, 40 L -130, 0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutout">M -540,0 L -540,107 L -390,107 L -390,0 Z</string>
 
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true-->
