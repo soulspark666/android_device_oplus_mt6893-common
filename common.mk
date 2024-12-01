@@ -92,8 +92,8 @@ PRODUCT_COPY_FILES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0.vendor \
-    android.hardware.bluetooth@1.1.vendor \
+    android.hardware.bluetooth@1.0.vendor:64 \
+    android.hardware.bluetooth@1.1.vendor:64 \
     android.hardware.bluetooth.audio-impl
 
 PRODUCT_COPY_FILES += \
@@ -102,16 +102,16 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.common@1.0.vendor \
-    android.hardware.camera.device@3.2.vendor \
-    android.hardware.camera.device@1.0.vendor \
-    android.hardware.camera.device@3.3.vendor \
-    android.hardware.camera.device@3.4.vendor \
-    android.hardware.camera.device@3.5.vendor \
-    android.hardware.camera.device@3.6.vendor \
-    android.hardware.camera.provider@2.4.vendor \
-    android.hardware.camera.provider@2.5.vendor \
-    android.hardware.camera.provider@2.6.vendor \
+    android.hardware.camera.common@1.0.vendor:64 \
+    android.hardware.camera.device@3.2.vendor:64 \
+    android.hardware.camera.device@1.0.vendor:64 \
+    android.hardware.camera.device@3.3.vendor:64 \
+    android.hardware.camera.device@3.4.vendor:64 \
+    android.hardware.camera.device@3.5.vendor:64 \
+    android.hardware.camera.device@3.6.vendor:64 \
+    android.hardware.camera.provider@2.4.vendor:64 \
+    android.hardware.camera.provider@2.5.vendor:64 \
+    android.hardware.camera.provider@2.6.vendor:64 \
     libcamera2ndk_vendor \
     libexif.vendor \
     libexpat.vendor \
@@ -132,13 +132,13 @@ SYSTEMUI_OPTIMIZE_JAVA := true
 
 # Display
 PRODUCT_PACKAGES += \
-    android.hardware.graphics.allocator@2.0.vendor \
-    android.hardware.graphics.allocator@3.0.vendor \
-    android.hardware.graphics.allocator@4.0.vendor \
-    android.hardware.graphics.composer@2.1-resources.vendor \
-    android.hardware.graphics.composer@2.2-resources.vendor \
+    android.hardware.graphics.allocator@2.0.vendor:64 \
+    android.hardware.graphics.allocator@3.0.vendor:64 \
+    android.hardware.graphics.allocator@4.0.vendor:64 \
+    android.hardware.graphics.composer@2.1-resources.vendor:64 \
+    android.hardware.graphics.composer@2.2-resources.vendor:64 \
     android.hardware.graphics.composer@2.3-service \
-    android.hidl.allocator@1.0.vendor \
+    android.hidl.allocator@1.0.vendor:64 \
     android.hardware.memtrack-service.mediatek-mali \
     android.hardware.graphics.common-V2-ndk_platform.vendor \
     android.hardware.graphics.common-V2-ndk.vendor \
@@ -154,11 +154,11 @@ PRODUCT_VENDOR_PROPERTIES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.0.vendor \
-    android.hardware.drm@1.1.vendor \
-    android.hardware.drm@1.2.vendor \
-    android.hardware.drm@1.3.vendor \
-    android.hardware.drm@1.4.vendor \
+    android.hardware.drm@1.0.vendor:64 \
+    android.hardware.drm@1.1.vendor:64 \
+    android.hardware.drm@1.2.vendor:64 \
+    android.hardware.drm@1.3.vendor:64 \
+    android.hardware.drm@1.4.vendor:64 \
     libmockdrmcryptoplugin \
     libdrm.vendor \
     libdrm
@@ -186,10 +186,10 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss.measurement_corrections@1.0.vendor \
     android.hardware.gnss.measurement_corrections@1.1.vendor \
     android.hardware.gnss.visibility_control@1.0.vendor \
-    android.hardware.gnss@1.0.vendor \
-    android.hardware.gnss@1.1.vendor \
-    android.hardware.gnss@2.0.vendor \
-    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss@1.0.vendor:64 \
+    android.hardware.gnss@1.1.vendor:64 \
+    android.hardware.gnss@2.0.vendor:64 \
+    android.hardware.gnss@2.1.vendor:64 \
     libcurl.vendor
 
 PRODUCT_PACKAGES += \
@@ -270,10 +270,10 @@ PRODUCT_COPY_FILES += \
 
 # Neural Networks
 PRODUCT_PACKAGES += \
-    android.hardware.neuralnetworks@1.0.vendor \
-    android.hardware.neuralnetworks@1.1.vendor \
-    android.hardware.neuralnetworks@1.2.vendor \
-    android.hardware.neuralnetworks@1.3.vendor \
+    android.hardware.neuralnetworks@1.0.vendor:64 \
+    android.hardware.neuralnetworks@1.1.vendor:64 \
+    android.hardware.neuralnetworks@1.2.vendor:64 \
+    android.hardware.neuralnetworks@1.3.vendor:64 \
     libtextclassifier_hash.vendor
 
 # NFC
@@ -395,17 +395,17 @@ PRODUCT_COPY_FILES += \
 
 # Radio
 PRODUCT_PACKAGES += \
-    android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1.vendor \
-    android.hardware.radio.config@1.2.vendor \
-    android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio@1.0.vendor \
-    android.hardware.radio@1.1.vendor \
-    android.hardware.radio@1.2.vendor \
-    android.hardware.radio@1.3.vendor \
-    android.hardware.radio@1.4.vendor \
-    android.hardware.radio@1.5.vendor \
-    android.hardware.radio@1.6.vendor
+    android.hardware.radio.config@1.0.vendor:64 \
+    android.hardware.radio.config@1.1.vendor:64 \
+    android.hardware.radio.config@1.2.vendor:64 \
+    android.hardware.radio.config@1.3.vendor:64 \
+    android.hardware.radio@1.0.vendor:64 \
+    android.hardware.radio@1.1.vendor:64 \
+    android.hardware.radio@1.2.vendor:64 \
+    android.hardware.radio@1.3.vendor:64 \
+    android.hardware.radio@1.4.vendor:64 \
+    android.hardware.radio@1.5.vendor:64 \
+    android.hardware.radio@1.6.vendor:64
 
 # RcsService
 PRODUCT_PACKAGES += \
@@ -469,9 +469,9 @@ PRODUCT_COPY_FILES += \
 
 # Secure Element
 PRODUCT_PACKAGES += \
-    android.hardware.secure_element@1.0.vendor \
-    android.hardware.secure_element@1.1.vendor \
-    android.hardware.secure_element@1.2.vendor
+    android.hardware.secure_element@1.0.vendor:64 \
+    android.hardware.secure_element@1.1.vendor:64 \
+    android.hardware.secure_element@1.2.vendor:64
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
@@ -519,16 +519,16 @@ PRODUCT_COPY_FILES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    android.hardware.tetheroffload.config@1.0.vendor \
-    android.hardware.tetheroffload.control@1.0.vendor \
-    android.hardware.tetheroffload.control@1.1.vendor \
+    android.hardware.tetheroffload.config@1.0.vendor:64 \
+    android.hardware.tetheroffload.control@1.0.vendor:64 \
+    android.hardware.tetheroffload.control@1.1.vendor:64 \
     android.system.keystore2-V1-ndk.vendor \
-    android.hardware.wifi@1.0.vendor \
-    android.hardware.wifi@1.1.vendor \
-    android.hardware.wifi@1.2.vendor \
-    android.hardware.wifi@1.3.vendor \
-    android.hardware.wifi@1.4.vendor \
-    android.hardware.wifi@1.5.vendor \
+    android.hardware.wifi@1.0.vendor:64 \
+    android.hardware.wifi@1.1.vendor:64\
+    android.hardware.wifi@1.2.vendor:64 \
+    android.hardware.wifi@1.3.vendor:64 \
+    android.hardware.wifi@1.4.vendor:64 \
+    android.hardware.wifi@1.5.vendor:64 \
     wpa_supplicant \
     hostapd \
     hostapd_cli \
