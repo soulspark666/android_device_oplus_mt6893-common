@@ -593,7 +593,7 @@ vendor/etc/init/init.vtservice_hidl.rc|f2e992214ed5bb99c2c2a135cf1f0996dba8a8a0
 vendor/lib64/hw/vendor.mediatek.hardware.videotelephony@1.0-impl.so|bb9ff554802e7bffb72cf24604109dafcf0019fc
 vendor/lib64/vendor.mediatek.hardware.videotelephony@1.0.so|5e228669d2c575e38fc02a13404f31bc22494b87
 
-# IMS (framework) - from OP5339L1 CPH2359_14.0.0.600(EX01)
+# IMS (framework)
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
 -framework/mediatek-ims-base.jar
@@ -783,6 +783,9 @@ vendor/lib64/libvpu.so
 vendor/lib64/libvpu5.so
 vendor/lib/libcodec2_hidl_plugin.so
 vendor/lib64/libcodec2_hidl_plugin.so
+
+# Mtkfusionrild - from c.12 RMX3031-user 12 SP1A.210812.016 1663769087038 release-keys
+vendor/bin/hw/mtkfusionrild|a026e560f5af92f8a9a2eb2159394e54e4a55bec
 
 # Media-Hardware
 vendor/lib/libstagefrighthw.so
@@ -1060,7 +1063,6 @@ lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
 system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
-vendor/bin/hw/mtkfusionrild
 vendor/bin/AgentTest
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
