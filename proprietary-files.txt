@@ -37,8 +37,6 @@ vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
 
 # Audio
-lib/vendor.oplus.hardware.performance@1.0.so
-lib64/vendor.oplus.hardware.performance@1.0.so
 odm/bin/hw/vendor.oplus.hardware.performance@1.0-service
 odm/etc/init/vendor.oplus.hardware.performance@1.0-service.rc
 -odm/etc/vintf/manifest/manifest_oplus_performance.xml
@@ -1037,12 +1035,6 @@ odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so
 odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
-lib/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so
-lib/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so
-lib/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
-lib64/vendor.mediatek.hardware.mtkradioex.rsu-V1-ndk.so
-lib64/vendor.mediatek.hardware.mtkradioex.se-V1-ndk.so
-lib64/vendor.mediatek.hardware.mtkradioex.sim-V1-ndk.so
 system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so
 system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
 system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
