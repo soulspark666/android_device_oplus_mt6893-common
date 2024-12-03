@@ -481,8 +481,6 @@ odm/lib/libosensehalclient.so
 odm/lib/vendor.oplus.hardware.osense.client@1.0.so
 odm/lib64/libosensehalclient.so
 odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
-system_ext/lib/vendor.oplus.hardware.osense.client@1.0.so
-system_ext/lib64/vendor.oplus.hardware.osense.client@1.0.so
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib64/libnxp_extamp_intf.so
 
@@ -654,7 +652,6 @@ vendor/lib64/vendor.mediatek.hardware.keymaster_attestation@1.1.so
 # Libraries
 etc/public.libraries-mtk.txt
 etc/public.libraries-trustonic.txt
-system_ext/etc/public.libraries-oplus.txt
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.default.so
@@ -1024,9 +1021,6 @@ odm/lib/vendor.oplus.hardware.radio-V1-ndk_platform.so
 odm/lib64/vendor.oplus.hardware.appradio@1.0.so
 odm/lib64/vendor.oplus.hardware.mtkmodemaci@1.0.so
 odm/lib64/vendor.oplus.hardware.radio-V1-ndk_platform.so
-system_ext/lib/vendor.oplus.hardware.camera.slogan@1.0.so
-system_ext/lib/vendor.mediatek.hardware.mtkradioex@3.0.so
-system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so
 vendor/bin/AgentTest
 vendor/bin/ccci_mdinit
 vendor/bin/ccci_rpcd
