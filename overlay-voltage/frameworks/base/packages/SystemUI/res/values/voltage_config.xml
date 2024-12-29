@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2024 VoltageOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    
+    <!-- Charging info voltage divider, if needed -->
+    <integer name="config_voltageInfoDivider" translatable="false">1</integer>
+    
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">1</integer>
+
+    <!-- Whether to enable framework dimming for UDFPS -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
+    <!-- Whether to disable Smart Pixels on UDFPS -->
+    <bool name="config_disableSmartPixelsOnUDFPS">true</bool>
+</resources>
