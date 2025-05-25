@@ -10,3 +10,10 @@ type oplus_block_device, dev_type;
 
 # CCCI
 type ccci_dump_device, dev_type;
+type ccci_imsdc_device, dev_type;
+
+# Audio
+type snd_device, dev_type;
+
+# Mali GPU
+type mali_device, dev_type;
